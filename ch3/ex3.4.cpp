@@ -14,6 +14,5 @@ int main()
 	if(str1 == str2)
 		std::cout << "str1 is equal str2";
 	else
-		std::cout << ";onger
-	std::cout << (str1 == str2 ? "str1 is equal str2" : "str1 is longer");
+		std::cout << "longer str is" <<  str1 > str2 ? str1 : str2;
 }
